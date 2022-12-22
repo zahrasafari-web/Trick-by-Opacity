@@ -1,6 +1,6 @@
 # Trick by Opacity & Figure
 
-- [Demo Project](https://github.com/zahrasafari-web/Trick-by-Opacity/)
+- [Demo Project](https://github.com/zahrasafari-web/Trick-by-Opacity)
 
 - Developed by Zahra Safari
 
