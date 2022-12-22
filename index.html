@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: auto;
+            /* border: 10px solid red; */
+            display: flex;
+            padding: 50px 130px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .container>figure{
+            width: 500px;
+            height: 650px;
+            border: 1px solid black;
+            margin: 20px 0;
+            position: relative;
+        }
+        .light{
+            content: '';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0);
+            transition: .4s;
+        }
+        .light>span{
+            color: rgba(255, 255, 255, 0);
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 14px;
+            margin: 0 15px;
+            transition: 2s;
+        }
+        .container>figure:hover .light>span{
+            color: white;
+        }
+        .container>figure:hover>.light{
+            background-color:  rgba(0, 0, 0, .8);
+        }
+        .container>figure>img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+        .light,
+        .container>figure>img{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <figure>
+            <img src="asset/img/me.jpg" alt="">
+            <div class="light">
+                <span>like</span>
+                <span>comment</span>
+            </div>
+        </figure>
+        <figure>
+            <img src="asset/img/me.jpg" alt="">
+            <div class="light">
+                <span>like</span>
+                <span>comment</span>
+            </div>
+        </figure>
+        <figure>
+            <img src="asset/img/me.jpg" alt="">
+            <div class="light">
+                <span>like</span>
+                <span>comment</span>
+            </div>
+        </figure>
+        <figure>
+            <img src="asset/img/me.jpg" alt="">
+            <div class="light">
+                <span>like</span>
+                <span>comment</span>
+            </div>
+        </figure>
+        <figure>
+            <img src="asset/img/me.jpg" alt="">
+            <div class="light">
+                <span>like</span>
+                <span>comment</span>
+            </div>
+        </figure>
+        <figure>
+            <img src="asset/img/me.jpg" alt="">
+            <div class="light">
+                <span>like</span>
+                <span>comment</span>
+            </div>
+        </figure>
+    </div>
+</body>
+</html>
